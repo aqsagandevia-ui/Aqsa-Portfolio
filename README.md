@@ -4,7 +4,7 @@ A modern, responsive developer portfolio built with **React** and **Vite**. It s
 
 ## Live Demo
 
-[Portfolio] (https://aqsa-portfolio-five.vercel.app/)
+[Portfolio] (https://aqsa-portfolio-vq33.vercel.app/)
 
 ## Features
 
