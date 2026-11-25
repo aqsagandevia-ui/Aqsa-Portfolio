@@ -1,144 +1,122 @@
-## Aqsa Gandevia - Portfolio
+# Aqsa Gandevia – Developer Portfolio
 
-A modern and responsive developer portfolio built with **React** and **Vite**. This portfolio showcases my skills, projects, education, certifications, and contact information in a clean, professional design.
+A modern, responsive developer portfolio built with **React** and **Vite**. It showcases my skills, projects, education, and contact information.
 
 ## Live Demo
 
-🔗 **Portfolio:** https://aqsa-portfolio-five.vercel.app/
-
-
-
----
-
-## About Me
-
-Hi, I'm **Aqsa Gandevia**, a **final-year MCA student** and aspiring **Software Developer** with a passion for building modern full-stack web applications.
-
-I specialize in the **MERN Stack**, creating responsive, scalable, and user-friendly applications using **React, Node.js, Express.js, and MongoDB**. Alongside full-stack development, I'm exploring **DevOps, cloud technologies, and modern software engineering practices** to build secure and production-ready applications.
-
----
+[Portfolio] (https://aqsa-portfolio-five.vercel.app/)
 
 ## Features
 
-- Responsive Design
-- Modern UI/UX
-- Smooth Animations
-- About Section
-- Skills Section
-- Project Showcase
-- Education Timeline
-- Certifications
-- Contact Form
-- Social Media Links
-- Resume Download
-
----
+- Responsive portfolio layout
+- About, skills, projects, and education sections
+- Project details page
+- Light and dark theme
+- Contact section
+- Resume download
+- Backend API integration
 
 ## Tech Stack
 
-### Frontend
-
-- React.js
+**Frontend**
+- React
 - Vite
-- JavaScript (ES6+)
-- HTML5
-- CSS3
+- JavaScript
+- HTML and CSS
 
-### Styling
+**Backend**
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-- CSS
-- Flexbox
-- CSS Grid
-- Responsive Design
-
-### Icons
-
-- React Icons
-
-### Deployment
-
-- GitHub
+**Tools**
+- Git and GitHub
 - Vercel
 
----
-
-## 📂 Project Structure
+## Folder Structure
 
 ```text
-portfolio/
+Aqsa-Portfolio/
 │
-├── public/
-├── src/
-│   ├── components/
-│   ├── hooks/
-│   ├── data.js
-│   ├── App.jsx
-│   └── main.jsx
-|   |__ styles.css
+├── backend/
+│   ├── public/
+│   │   └── resume/
+│   └── src/
+│       ├── config/
+│       ├── controllers/
+│       ├── middleware/
+│       ├── models/
+│       ├── routes/
+│       ├── services/
+│       ├── utils/
+│       └── server.js
 │
-├── package.json
-├── vite.config.js
+├── frontend/
+│   ├── public/
+│   │   └── resume/
+│   └── src/
+│       ├── assets/
+│       ├── components/
+│       ├── context/
+│       ├── pages/
+│       ├── services/
+│       ├── utils/
+│       ├── App.jsx
+│       ├── App.css
+│       ├── index.css
+│       └── main.jsx
+│
 └── README.md
 ```
 
----
+## Getting Started
 
-## ⚙️ Installation
+### Prerequisites
 
-Clone the repository
+- Node.js and npm
+- MongoDB
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/aqsagandevia-ui/Aqsa-Portfolio/
+cd Aqsa-Portfolio
 ```
 
-Navigate to the project
+### 2. Install frontend dependencies
 
 ```bash
-cd portfolio
-```
-
-Install dependencies
-
-```bash
+cd frontend
 npm install
 ```
 
-Start the development server
+### 3. Run the frontend
 
 ```bash
 npm run dev
 ```
 
-Build for production
+### 4. Install backend dependencies
+
+Open another terminal:
 
 ```bash
-npm run build
+cd backend
+npm install
 ```
 
-Preview production build
+### 5. Run the backend
 
 ```bash
-npm run preview
+npm run dev
 ```
-
----
 
 ## Contact
 
- Email: your-email@example.com
-
- LinkedIn: https://www.linkedin.com/in/aqsa-gandevia-526374253/
-
- GitHub: https://github.com/aqsagandevia-ui
-
- Portfolio: https://aqsa-portfolio-five.vercel.app/
+- **Gmail:** aqsagandevia@gmail.com
+- **GitHub:** https://github.com/aqsagandevia-ui
+- **LinkedIn:** https://www.linkedin.com/in/aqsa-gandevia-526374253/
 
 ---
-
-## 📄 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-### ⭐ If you like this project, consider giving it a star on GitHub!
+© Aqsa Gandevia
